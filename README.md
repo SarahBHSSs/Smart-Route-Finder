@@ -1,8 +1,8 @@
-# Smart Route Finder
+# 🗺️ Smart Route Finder
 
 A personal project where I implemented Dijkstra's algorithm from scratch and used it to compute real shortest-path routes on an actual city map (Tunis), with an interactive interface to click and see the route appear.
 
-I built this to really understand how Dijkstra's algorithm works past the classroom examples with 6 nodes and a whiteboard. Here, the algorithm runs on a real road network pulled live from OpenStreetMap — thousands of nodes and edges — and the whole thing is wrapped in a map you can actually click on.
+I built this to really understand how Dijkstra's algorithm works past the classroom examples with 6 nodes and a whiteboard. Here, the algorithm runs on a real road network pulled live from OpenStreetMap, thousands of nodes and edges, and the whole thing is wrapped in a map you can actually click on.
 
 ## Why I made this
 
@@ -34,10 +34,10 @@ Most of the Dijkstra examples I found online or in class use tiny toy graphs, wh
 
 ## Tech stack
 
-- **Python** — core language
-- **OSMnx** — download and model real-world street networks from OpenStreetMap
-- **NetworkX** — graph data structure
-- **Dijkstra's algorithm (custom implementation)** — shortest-path search with a binary heap
-- **ipyleaflet** — interactive map rendering inside Jupyter
-- **Matplotlib** — static visualization of the computed route
-- **Geopy / Nominatim** — reverse geocoding (coordinates → addresses)
+- **Python** : core language
+- **OSMnx** : download and model real-world street networks from OpenStreetMap
+- **NetworkX** : graph data structure
+- **Dijkstra's algorithm (custom implementation)** : shortest-path search with a binary heap
+- **ipyleaflet** : interactive map rendering inside Jupyter
+- **Matplotlib** : static visualization of the computed route
+- **Geopy / Nominatim** : reverse geocoding (coordinates → addresses)
